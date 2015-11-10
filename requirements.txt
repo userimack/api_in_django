@@ -1,0 +1,7 @@
+#latest django 1.9
+django==1.8.6
+
+#Django rest framework
+djangorestframework==3.3.1
+
+wheel==0.24.0
