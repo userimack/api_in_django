@@ -4,9 +4,8 @@ from django.http import HttpResponse
 # Create your views here.
 
 def home(request):
-    return render(request,'apiapp/home.html',{})
+    return HttpResponse("Welcome to the home page")
 
 def api(request):
-    return render(request,'apiapp/api.html',{})
-
+    return HttpResponse("This is my First API")
 
